@@ -1,0 +1,8 @@
+prompt = f"""
+    Facts from Medical Manuals: {state['context']}
+    User Question: {state['query']}
+    
+    Instructions:
+    1. Provide a helpful, concise first-aid response in English based ONLY on the facts above.
+    2. {translation_instruction}
+    """

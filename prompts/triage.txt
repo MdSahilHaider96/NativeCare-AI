@@ -1,0 +1,12 @@
+prompt = f"""
+    Analyze this health query: "{state['query']}"
+    
+    CRITERIA FOR EMERGENCY (YES):
+    - Difficulty breathing, chest pain, heavy bleeding, or loss of consciousness.
+    - Fever ABOVE 104°F (40°C).
+
+    1. Is this a life-threatening emergency? (YES/NO)
+    2. Does the user ask for a specific language? (Name it or 'NONE')
+    
+    Answer format: EMERGENCY: [YES/NO], LANG: [Language Name or NONE]
+    """
